@@ -1,0 +1,58 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  container: { backgroundColor: "lightblue", flex: 1 },
+  indicatorStyle: { backgroundColor: "grey", width: 100 },
+  header: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginVertical: 15,
+  },
+  headerText: { fontSize: 25, letterSpacing: 1 },
+  main: { paddingHorizontal: 20, marginTop: 10, flex: 1 },
+  restaurantNameText: { fontSize: 25, letterSpacing: 1, paddingVertical: 20 },
+  iconContainer: { flexDirection: "row", alignItems: "center" },
+  restaurantAddressText: {
+    fontSize: 20,
+    color: "grey",
+    fontWeight: "500",
+    letterSpacing: 0.5,
+    marginLeft: 15,
+    textAlign: "center",
+  },
+  userAddressText: {
+    fontSize: 20,
+    color: "grey",
+    fontWeight: "500",
+    letterSpacing: 0.5,
+    marginLeft: 15,
+    textAlign: "center",
+  },
+  orderItemsContainer: {
+    borderTopWidth: 1,
+    borderColor: "grey",
+    marginTop: 15,
+    paddingTop: 15,
+    flex: 1,
+  },
+  orderItemText: {
+    fontSize: 18,
+    color: "grey",
+    fontWeight: "500",
+    letterSpacing: 0.5,
+    marginBottom: 5,
+  },
+  cta: {
+    backgroundColor: "#3FC060",
+    marginTop: "auto",
+    marginBottom: 30,
+    marginVertical: 20,
+    marginHorizontal: 10,
+    borderRadius: 10,
+    minHeight: 50,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  ctaText: { fontSize: 18, fontWeight: "400", color: "white", letterSpacing: 0.5 },
+});
